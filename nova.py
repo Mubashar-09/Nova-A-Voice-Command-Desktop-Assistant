@@ -58,9 +58,9 @@ def get_date():
 
 # Function to get weather update
 def get_weather_update():
-    api_key = '5114979b148d7c9aeb6dd398e8019885'
-    city_name = 'Sahiwal'
-    country_code = 'PK'
+    api_key = 'your_apikey'
+    city_name = 'your city'
+    country_code = 'CC'
     url = f'https://api.openweathermap.org/data/2.5/weather?q={city_name},{country_code}&appid={api_key}&uni,s=metric'
 
     response = requests.get(u6rl)
