@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>novagui</class>
+ <widget class="QMainWindow" name="novagui">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>801</width>
+    <height>531</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="Start">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>470</y>
+      <width>231</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-image: url(C:/Users/Hafiz/Desktop/Nova GUI - Copy/Images/Start.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; /* Or use 'contain' if you want the entire image to fit */
+    border: none;
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    transition: all 0.2s ease; /* Smooth transition for the effects */
+    border-radius: 10px; /* Optional: rounded corners for a smoother look */
+}
+
+/* Hover effect */
+QPushButton:hover {
+    box-shadow: 0 0 20px rgba(36, 236, 255, 0.8), 0 0 30px rgba(36, 235, 255, 0.6); /* More prominent glow effect */
+    transform: scale(1.05); /* Slightly enlarge the button */
+}
+
+/* Pressed effect */
+QPushButton:pressed {
+    background-color: rgba(0, 0, 0, 0.4); /* Darken the button to show it is pressed */
+    padding-top: 12px; /* Adjust the padding to simulate a pushed button */
+    padding-bottom: 8px; /* Adjust the padding to simulate a pushed button */
+    transform: scale(1.95); /* Scale down the button to give a pushed effect */
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5); /* Inner shadow for pressed effect */
+}
+
+/* Optional: active effect to provide a smooth push-down and release animation */
+QPushButton:active {
+    transform: scale(0.95); /* Scale down the button */
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5); /* Inner shadow for pressed effect */
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>30</y>
+      <width>201</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Images/technology style border.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="textBrowser">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>60</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:transparent;
+border-radius: none;
+font-family: 'Algerian';
+font-size: 21px;
+color: rgb(221, 221, 221);</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>40</y>
+      <width>351</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Images/Orb.gif</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>320</y>
+      <width>721</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:transparent;
+border-radius: none;
+color: rgb(221, 221, 221);</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>801</width>
+      <height>531</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:black;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Images/Main UI.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>40</y>
+      <width>271</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Images/2RNb.gif</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Exit">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>470</y>
+      <width>231</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-image: url(C:/Users/Hafiz/Desktop/Nova GUI - Copy/Images/Exit.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; /* Or use 'contain' if you want the entire image to fit */
+    border: none;
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    transition: all 0.2s ease; /* Smooth transition for the effects */
+    border-radius: 10px; /* Optional: rounded corners for a smoother look */
+}
+
+/* Hover effect */
+QPushButton:hover {
+    box-shadow: 0 0 20px rgba(36, 236, 255, 0.8), 0 0 30px rgba(36, 235, 255, 0.6); /* More prominent glow effect */
+    transform: scale(1.05); /* Slightly enlarge the button */
+}
+
+/* Pressed effect */
+QPushButton:pressed {
+    background-color: rgba(0, 0, 0, 0.4); /* Darken the button to show it is pressed */
+    padding-top: 12px; /* Adjust the padding to simulate a pushed button */
+    padding-bottom: 8px; /* Adjust the padding to simulate a pushed button */
+    transform: scale(1.95); /* Scale down the button to give a pushed effect */
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5); /* Inner shadow for pressed effect */
+}
+
+/* Optional: active effect to provide a smooth push-down and release animation */
+QPushButton:active {
+    transform: scale(0.95); /* Scale down the button */
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5); /* Inner shadow for pressed effect */
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="textBrowser_2">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>150</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:transparent;
+border-radius: none;
+font-family: 'Algerian';
+font-size: 20px;
+color: rgb(221, 221, 221);</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ManageCommands">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>470</y>
+      <width>241</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-image: url(C:/Users/Hafiz/Desktop/Nova GUI - Copy/Images/Command B.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; /* Or use 'contain' if you want the entire image to fit */
+    border: none;
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    transition: all 0.2s ease; /* Smooth transition for the effects */
+    border-radius: 10px; /* Optional: rounded corners for a smoother look */
+}
+
+/* Hover effect */
+QPushButton:hover {
+    box-shadow: 0 0 20px rgba(36, 236, 255, 0.8), 0 0 30px rgba(36, 235, 255, 0.6); /* More prominent glow effect */
+    transform: scale(1.05); /* Slightly enlarge the button */
+}
+
+/* Pressed effect */
+QPushButton:pressed {
+    background-color: rgba(0, 0, 0, 0.4); /* Darken the button to show it is pressed */
+    padding-top: 12px; /* Adjust the padding to simulate a pushed button */
+    padding-bottom: 8px; /* Adjust the padding to simulate a pushed button */
+    transform: scale(1.95); /* Scale down the button to give a pushed effect */
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5); /* Inner shadow for pressed effect */
+}
+
+/* Optional: active effect to provide a smooth push-down and release animation */
+QPushButton:active {
+    transform: scale(0.95); /* Scale down the button */
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5); /* Inner shadow for pressed effect */
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <zorder>label_6</zorder>
+   <zorder>label_5</zorder>
+   <zorder>label_8</zorder>
+   <zorder>label</zorder>
+   <zorder>textBrowser</zorder>
+   <zorder>textBrowser_2</zorder>
+   <zorder>textEdit</zorder>
+   <zorder>Exit</zorder>
+   <zorder>ManageCommands</zorder>
+   <zorder>Start</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
